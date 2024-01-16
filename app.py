@@ -23,7 +23,7 @@ def upload_and_process(uploaded_file):
     except Exception as e:
         st.error("Error: " + str(e))
 
-st.title("ShipMoney File Processor for Client Master File")
+st.title("ShipMoney File Processor for Client Master")
 st.write("Upload Client Master Excel File by clicking the button below")
 
 uploaded_file = st.file_uploader("Upload here and Process", type=['xlsx'])
